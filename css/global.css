@@ -2,3 +2,17 @@
 @import url("../css/shop.css");
 @import url("../css/home.css");
 @import url("../css/select.css");
+
+
+* {
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    max-width: 1294px;
+    margin:0 auto;
+    padding:0 20px;
+}

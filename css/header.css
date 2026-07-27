@@ -1,18 +1,6 @@
 /* teamleader */
 
 
-* {
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-    
-}
-
-.container {
-    max-width: 1294px;
-    margin:0 auto;
-    padding:0 20px;
-}
 
 .heading {
     font-family: Montserrat;
@@ -24,10 +12,40 @@ line-height: 109.00000000000001%;
 letter-spacing: -3%;
 width: 195;
 height: 41;
-top: 48px;
-left: 130px;
+right: 300px;
+position:relative;
+
 angle: 0 deg;
 opacity: 1;
 color:#237249;
+
+
  
 }       
+
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.nav-list {
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+   
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    right: 600px;
+    position: relative;
+   justify-content: space-between;
+}
