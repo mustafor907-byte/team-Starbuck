@@ -56,15 +56,4 @@ ul {
 header {
     background-color: #14241E;
 }
-=======
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  right: 600px;
-  position: relative;
-  justify-content: space-between;
-}
-.home-div {
-  background: #121517;
-}
->>>>>>> 12b8bf370df179a33174f09fabec8d6d5d7b1d12
+
