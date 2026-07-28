@@ -27,7 +27,7 @@ a {
   color: #d9d9d9;
   line-height: 100%;
   letter-spacing: 0%;
-  vertical-align: bottom;
+
   box-shadow: 0px 4px 4px 0px #00000040;
 }
 
@@ -39,7 +39,6 @@ ul {
 
 .nav-list {
   align-items: center;
-  justify-content: space-between;
   display: flex;
 }
 
@@ -49,8 +48,12 @@ ul {
   gap: 50px;
   right: 600px;
   position: relative;
-  justify-content: space-between;
 }
+
+header {
+  background-color: #14241e;
+}
+
 .home-div {
   background: #121517;
 }

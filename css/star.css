@@ -4,6 +4,7 @@
   font-style: ExtraBold;
   font-size: 80px;
   color: #ffffff;
+  left: 20px;
 
   line-height: 109.00000000000001%;
   letter-spacing: -3%;
@@ -19,4 +20,9 @@ span {
   color: #d9d9d9;
   line-height: 163%;
   letter-spacing: -2%;
+}
+
+
+.star-section {
+  background-color: #237249;
 }
