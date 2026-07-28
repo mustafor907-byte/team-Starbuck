@@ -1,47 +1,50 @@
 /* teamleader */
 
-
-
 .heading {
-    font-family: Montserrat;
-font-weight: 800;
-font-style: ExtraBold;
-font-size: 37.6px;
-leading-trim: NONE;
-line-height: 109.00000000000001%;
-letter-spacing: -3%;
-width: 195;
-height: 41;
-right: 300px;
-position:relative;
+  font-family: Montserrat;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 37.6px;
+  leading-trim: NONE;
+  line-height: 109.00000000000001%;
+  letter-spacing: -3%;
+  width: 195;
+  height: 41;
+  right: 200px;
+  position: relative;
 
-angle: 0 deg;
-opacity: 1;
-color:#237249;
-
-
- 
-}       
-
+  angle: 0 deg;
+  opacity: 1;
+  color: #237249;
+}
 
 a {
-    text-decoration: none;
-
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 19.17px;
+  color: #d9d9d9;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
+  position: relative;
+  left: 100px;
 }
 
-
 .nav-list {
-   align-items: center;
-   justify-content: space-between;
-   display: flex;
-   
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
 }
 
 .nav-ul {
+<<<<<<< HEAD
     display: flex;
     align-items: center;
     gap: 50px;
@@ -53,3 +56,15 @@ ul {
 header {
     background-color: #14241E;
 }
+=======
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  right: 600px;
+  position: relative;
+  justify-content: space-between;
+}
+.home-div {
+  background: #121517;
+}
+>>>>>>> 12b8bf370df179a33174f09fabec8d6d5d7b1d12
