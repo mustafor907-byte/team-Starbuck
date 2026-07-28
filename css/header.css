@@ -49,3 +49,7 @@ ul {
     position: relative;
    justify-content: space-between;
 }
+
+header {
+    background-color: #14241E;
+}
