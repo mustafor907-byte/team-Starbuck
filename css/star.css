@@ -77,12 +77,10 @@ span {
   display: flex;
   justify-content: center;
   gap: 155px;
-  flex-wrap: wrap;
 }
 .star-div {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 .star-h2 {
   font-family: Montserrat;

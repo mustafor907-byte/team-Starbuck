@@ -1,6 +1,6 @@
 .select-section {
   padding: 80px 0;
-  background:#172D23;
+  background-color: #191d1d;
 }
 
 .select {
@@ -9,6 +9,7 @@
   align-items: center;
   background-color: white;
   border-radius: 50px;
+  flex-wrap: wrap;
 }
 
 .divcard {
@@ -29,8 +30,12 @@
 }
 
 .card-icon {
+<<<<<<< HEAD
   max-width:100%;   
 
+=======
+  max-width: 500px;
+>>>>>>> 068e48f71451145afabaa3af53a7fb4e77b94026
 }
 
 .card-title {
@@ -39,28 +44,26 @@
   margin-bottom: 14px;
   color: #1a1a1a;
   font-family: Montserrat;
-font-weight: 500;
-font-style: Medium;
-font-size: 32px;
-leading-trim: NONE;
-line-height: 163%;
-letter-spacing: -2%;
-
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 32px;
+  leading-trim: NONE;
+  line-height: 163%;
+  letter-spacing: -2%;
 }
 
 .card-text {
   font-size: 15px;
-  
+
   line-height: 1.6;
   max-width: 220px;
   font-family: Montserrat;
-font-weight: 400;
-font-style: Regular;
-font-size: 20.13px;
-leading-trim: NONE;
-line-height: 163%;
-letter-spacing: -2%;
-text-align: center;
-color: #121517E5;
-
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20.13px;
+  leading-trim: NONE;
+  line-height: 163%;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #121517e5;
 }
