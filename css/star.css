@@ -12,30 +12,21 @@
 span {
   color: #237249;
 }
-.starp {
-font-family: Montserrat;
-font-weight: 400;
-font-style: Regular;
-font-size: 20px;
-leading-trim: NONE;
-line-height: 163%;
-letter-spacing: -2%;
-color: #D9D9D9;
-max-width: 570px;
-height: 66px;
-angle: 0 deg;
-opacity: 1;
+.star-p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
 
-right: 340px;
-position: relative;
-
-
+  line-height: 163%;
+  letter-spacing: -2%;
+  color: #d9d9d9;
+  margin-bottom: 54px;
 }
 
-
 .star-section {
-  background-color: #191D1D;
-  flex-direction: ;
+  background-color: #191d1d;
+
   padding: 10px 20px;
 }
 
@@ -43,15 +34,53 @@ position: relative;
   width: 50%;
 }
 
-
 .sct-btn {
-  width: 333.381134033203px;
-height: 74.65283203125px;
-right:300px;
-angle: 0 deg;
-opacity: 1;
-left: 130px;
-position: relative;
-border-radius: 82.83px;
+  left: 130px;
+  position: relative;
+  border-radius: 82.83px;
+}
+.star-btn {
+  padding: 20px 80px;
+  background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
+  color: #ffffff;
+  border: none;
+  border-radius: 82px;
+  font-family: Montserrat;
+  font-weight: 639;
+  font-style: SemiBold;
+  font-size: 24px;
 
+  line-height: 146%;
+  letter-spacing: -2%;
+}
+.star-btn1 {
+  border: 1.02px solid gray;
+
+  padding: 20px 50px;
+  background: #121517;
+  border-radius: 82px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 146%;
+  letter-spacing: -3%;
+  color: #d9d9d9;
+  position: relative;
+  left: 10px;
+}
+.star-img {
+  max-width: 400px;
+  width: 100%;
+}
+.Star {
+  display: flex;
+  justify-content: center;
+  gap: 155px;
+  flex-wrap: wrap;
+}
+.star-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
