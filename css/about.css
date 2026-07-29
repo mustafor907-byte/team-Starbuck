@@ -12,7 +12,31 @@
   font-weight: 800;
   font-style: ExtraBold;
   font-size: 80px;
-
+  color: #ffffff;
   line-height: 109.00000000000001%;
   letter-spacing: -3%;
+}
+.about-div {
+  display: flex;
+  justify-content: center;
+}
+.about-p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: #d9d9d9;
+  line-height: 163%;
+  letter-spacing: -2%;
+}
+@media (max-width: 1050px) {
+  .about-div {
+    flex-direction: column;
+  }
+}
+.about-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
