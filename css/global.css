@@ -5,12 +5,9 @@
 @import url("../css/star.css");
 @import url("../css/about.css");
 @import url("../css/shop.css");
-<<<<<<< HEAD
 @import url("../css/footer.css");
-
-=======
 @import url("../css/media.css");
->>>>>>> ea099b55e5c5f31b7d988dfed84dd3ea494a5055
+
 * {
   margin-left: auto;
   margin-right: auto;
