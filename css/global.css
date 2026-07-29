@@ -3,6 +3,7 @@
 @import url("../css/home.css");
 @import url("../css/select.css");
 @import url("../css/star.css");
+@import url("../css/about.css");
 
 * {
   margin-left: auto;
@@ -15,5 +16,3 @@
   margin: 0 auto;
   padding: 0 20px;
 }
-
-
