@@ -1,0 +1,97 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0b0f0d;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer */
+footer {
+
+  
+
+    margin: 20px;
+    padding: 26px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.brand h2 {
+    color: #21c25e;
+    font-size: 22px;
+    margin: 0 0 40px;
+}
+
+.phone {
+    color: #21c25e;
+    font-size: 15px;
+    margin: 0;
+}
+
+.footer-col a,
+.footer-col span {
+    display: block;
+    color: #6f7d76;
+    font-size: 14px;
+    line-height: 1.9;
+    text-decoration: none;
+}
+
+
+
+
+
+.side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+    min-height: 130px;
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #1f3c30;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #21c25e;
+}
+
+.instagram img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/* Yuqoriga qaytish tugmasi */
+.back-to-top {
+    background-color: #21c25e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: none; /* Tugma dastlab yashirin bo'ladi */
+    font-size: 16px;
+}
+
+
+
+
+
+.yt-img {
+    width: 100%;
+}
