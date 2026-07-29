@@ -29,14 +29,20 @@
   line-height: 163%;
   letter-spacing: -2%;
 }
-@media (max-width: 1050px) {
-  .about-div {
-    flex-direction: column;
-  }
-}
+
 .about-left {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+}
+@media (max-width: 1050px) {
+  .about-div {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  .about-h1 {
+    font-size: 60px;
+  }
 }
