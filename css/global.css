@@ -7,8 +7,8 @@
 @import url("../css/shop.css");
 @import url("../css/footer.css");
 @import url("../css/media.css");
-@import url("../css/buck.css");
 
+@import url("../css/contact.css");
 * {
   margin-left: auto;
   margin-right: auto;
@@ -27,4 +27,15 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+/* Yuqoriga qaytish tugmasi */
+.back-to-top {
+  background-color: #21c25e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: none; /* Tugma dastlab yashirin bo'ladi */
+  font-size: 16px;
 }

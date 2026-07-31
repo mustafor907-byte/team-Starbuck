@@ -28,7 +28,7 @@
 .shop-div2 {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
   gap: 54px;
 }
 .shop-div1 {
@@ -125,6 +125,11 @@
 }
 @media (max-width: 400px) {
   .shop-h1 {
-    font-size: 13px;
+    font-size: 60px;
+  }
+}
+@media (max-width: 1277.6px) {
+  .shop-div2 {
+    flex-wrap: wrap;
   }
 }

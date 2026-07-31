@@ -9,19 +9,13 @@ body {
 }
 
 footer {
-  margin: 20px;
   padding: 26px 40px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   gap: 30px;
-}
-
-.brand h2 {
-  color: #21c25e;
-  font-size: 22px;
-  margin: 0 0 40px;
+  background: #0b0c0d;
 }
 
 .phone {
@@ -64,18 +58,6 @@ footer {
   height: 20px;
 }
 
-/* Yuqoriga qaytish tugmasi */
-.back-to-top {
-  background-color: #21c25e;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  display: none; /* Tugma dastlab yashirin bo'ladi */
-  font-size: 16px;
-}
-
 .yt-img {
   width: 100%;
 }
@@ -84,8 +66,19 @@ footer {
   font-weight: 800;
   font-style: ExtraBold;
   font-size: 37.6px;
-  background-color: linear-gradient(263.46deg, #237249 3.14%, #35c66b 87.2%);
+  color: #21c25e;
+
+  margin-bottom: 100px;
 
   line-height: 109.00000000000001%;
   letter-spacing: -3%;
+}
+.brand-a {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 26px;
+  color: #237249;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
