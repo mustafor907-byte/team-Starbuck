@@ -23,8 +23,8 @@
 }
 
 
-@media (max-width:504) {
+@media (max-width:504px) {
   .star-h1 {
-    font-size: 16px;
+    font-size: 6px;
   }
 }
