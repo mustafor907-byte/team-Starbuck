@@ -5,7 +5,10 @@
 @import url("../css/star.css");
 @import url("../css/about.css");
 @import url("../css/shop.css");
+@import url("../css/footer.css");
 @import url("../css/media.css");
+@import url("../css/buck.css");
+
 * {
   margin-left: auto;
   margin-right: auto;
@@ -16,4 +19,12 @@
   max-width: 1294px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+body {
+  background-color: #191d1d;
+}
+
+html {
+  scroll-behavior: smooth;
 }

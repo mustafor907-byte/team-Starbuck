@@ -30,7 +30,12 @@
 }
 
 .card-icon {
+<<<<<<< HEAD
+  max-width:100%;   
+
+=======
   max-width: 500px;
+>>>>>>> 068e48f71451145afabaa3af53a7fb4e77b94026
 }
 
 .card-title {
