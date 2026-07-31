@@ -6,8 +6,8 @@
 @import url("../css/about.css");
 @import url("../css/shop.css");
 @import url("../css/footer.css");
-@import url("../css/media.css");
-
+@import url("../css/media.css");  
+@import url("../css/contact.css");
 * {
   margin-left: auto;
   margin-right: auto;
@@ -25,6 +25,33 @@
 
 
 
+body {
+  background-color: #191d1d;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
+
+
+/* styles.css */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: none; /* Tugma dastlab yashirin bo'ladi */
+    font-size: 16px;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+

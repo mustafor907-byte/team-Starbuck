@@ -1,92 +1,85 @@
-
-
-* {
-    box-sizing: border-box;
+'* {
+  box-sizing: border-box;
 }
 
-
+body {
+  margin: 0;
+  background-color: #0b0f0d;
+  font-family: Arial, sans-serif;
+}
 
 footer {
-
-  
-
-    margin: 20px;
-    padding: 26px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.brand h2 {
-    color: #21c25e;
-    font-size: 22px;
-    margin: 0 0 40px;
+  padding: 26px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  background: #0b0c0d;
 }
 
 .phone {
-    color: #21c25e;
-    font-size: 15px;
-
+  color: #21c25e;
+  font-size: 15px;
+  margin: 0;
 }
 
 .footer-col a,
 .footer-col span {
-    display: block;
-    color: #6f7d76;
-    font-size: 14px;
-    line-height: 1.9;
-    text-decoration: none;
+  display: block;
+  color: #6f7d76;
+  font-size: 14px;
+  line-height: 1.9;
+  text-decoration: none;
 }
 
-
-
-
-
 .side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-    height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 130px;
 }
 
 .instagram {
-    width: 40px;
-    height: 40px;
-    border: 1px solid #1f3c30;
-   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #21c25e;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #1f3c30;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #21c25e;
 }
 
 .instagram img {
-    width: 100%;
-
+  width: 20px;
+  height: 20px;
 }
-
-
-
-/* Yuqoriga qaytish tugmasi */
-.back-to-top {
-    background-color: #21c25e;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    display: none; /* Tugma dastlab yashirin bo'ladi */
-    font-size: 16px;
-}
-
-
-
-
 
 .yt-img {
-    width: 100%;
+  width: 100%;
 }
+.brand-h2 {
+  font-family: Montserrat;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 37.6px;
+  color: #21c25e;
+
+  margin-bottom: 100px;
+
+  line-height: 109.00000000000001%;
+  letter-spacing: -3%;
+}
+.brand-a {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 26px;
+  color: #237249;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+'

@@ -70,10 +70,7 @@ span {
   position: relative;
   left: 10px;
 }
-.star-img {
-  max-width: 400px;
-  width: 100%;
-}
+
 .Star {
   display: flex;
   justify-content: center;
@@ -114,7 +111,7 @@ span {
   display: flex;
   align-items: center;
 }
-@media (max-width: 700px) {
+@media (max-width: 1100px) {
   .Star {
     flex-direction: column-reverse;
   }
@@ -122,5 +119,30 @@ span {
 @media (max-width: 450px) {
   .Star {
     gap: 50px;
+  }
+}
+@media (max-width: 550px) {
+  .star-img {
+    width: 100%;
+  }
+  .star-h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 400px) {
+  .star-btn {
+    padding: 20px 40px;
+  }
+  .star-h2 {
+    font-size: 40px;
+  }
+  .stars-p {
+    font-size: 15px;
+  }
+  .star-2 {
+    gap: 10px;
+  }
+  .star-h1 {
+    font-size: 46px;
   }
 }
